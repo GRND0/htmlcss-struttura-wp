@@ -5,6 +5,8 @@
     box-sizing: border-box ;
 }
 
+/*COMMON*/
+
 .clearfix::after {
     content: "" ;
     display: table ;
@@ -16,6 +18,8 @@ body {
     margin: auto ;
     max-width: 800px ;
 }
+
+/*REGOLE SEZIONI*/
 
 header {
     background-color: #e579e6 ;
@@ -30,34 +34,36 @@ header {
     height: 350px;
 }
 
+
 #contenitore2 {
     background-color: #0186ff ;
     margin: 0 0 10px 0 ;
-
 }
+
 
 .elementi {
     background-color: #abcfe7 ;
     margin-bottom: 10px ;
-
 }
+
 
 #top {
     height: 60px ;
-    float: none ;
-
 }
+
 
 #sx, #centro, #dx {
 
     height: 300px ;
     float: left ;
-  
 }
+
+
 
 #sx, #dx {
     width: 15% ;
 }
+
 
 #centro {
     width: calc(70% - 20px) ;
@@ -65,10 +71,7 @@ header {
 }
 
 
-
 #footer {
     background-color: #8801fe ;
     height: 40px ;
-    
 }
-
